@@ -1,0 +1,19 @@
+.containerPrincipalNav{
+    margin: 30px;
+    background: #fff;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoImgNav{
+    width: 50px;
+}
+
+.imgTitlePrincipalNav{
+    margin-right: 100px;
+}
+
+.btnNavbar{
+    margin-left: 100px;
+}
