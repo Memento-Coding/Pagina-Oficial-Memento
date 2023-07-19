@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div>
-        hoyos hijueputa!!!
+        hoyos tetra hijueputa!!!
       </div>
     </>
   )
