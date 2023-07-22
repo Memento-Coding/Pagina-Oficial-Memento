@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './navbarStyles.css'
 import { Navbar, Nav, NavDropdown, Button, NavLink, Modal } from 'react-bootstrap';
-import imgLogo from '../../assets/img/Logo.jpg'
+import imgLogo from '../../assets/img/LogoMemento.png'
 import { ModalContratame } from '../Modal/ModalContratame';
 
 
@@ -13,14 +13,14 @@ export const NavbarMemento = () => {
     <Navbar className='containerPrincipalNav'>
       <div className="d-flex align-items-center imgTitlePrincipalNav">
         <img className='logoImgNav' src={imgLogo} alt="Logo" />
-        <Navbar.Brand href="/home" className="ml-2">Memento Coding</Navbar.Brand>
       </div>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/projects">Proyectos</Nav.Link>
-          <Nav.Link href="/aboutMe">Sobre mí</Nav.Link>
-          <Nav.Link href="/contacts">Contacto</Nav.Link>
+          <Nav.Link className='navegadorNavbar' href="/home">Inicio</Nav.Link>
+          <Nav.Link className='navegadorNavbar' href="/aboutMe">Acerca de</Nav.Link>
+          <Nav.Link className='navegadorNavbar' href="/projects">Proyectos</Nav.Link>
+          <Nav.Link className='navegadorNavbar' href="/contacts">Contacto</Nav.Link>
         </Nav>
         <div className="d-flex align-items-center">
         <Nav>
