@@ -1,5 +1,6 @@
 :root{
     --color-primary: #6369FD;  
+    --color-backgroundPrincipal: #000000;
     --color-btnHover: #4d53fa;
     --color-alertLogin: #F36A6A;
     --color-alertLoginFont: #8D3030;
